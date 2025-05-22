@@ -37,6 +37,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') 
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots0e3463')
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/Kittu-Music",
